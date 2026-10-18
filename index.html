@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Ram Setu Enterprises manufactures and distributes shrink film, liner bags and stretch film for industrial and commercial packaging. Based in Prayagraj, Uttar Pradesh, India.">
+<meta name="keywords" content="Ram Setu Enterprises, shrink film manufacturer, stretch film supplier, liner bags, packaging film Prayagraj, packaging materials India">
+<meta name="theme-color" content="#102a43">
+<title>Ram Setu Enterprises | Packaging Films & Solutions</title>
+<style>
+:root { color-scheme: light dark; --navy:#102a43; --blue:#1f5f8b; --teal:#0b8f87; --gold:#f2b84b; --paper:light-dark(#ffffff,#101b28); --surface:light-dark(#f3f7fa,#172638); --ink:light-dark(#173047,#edf5fb); --muted:light-dark(#5e7285,#b5c5d4); --line:light-dark(#dbe5ed,#34495d); }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--paper); color:var(--ink); line-height:1.6; }
+a { color:inherit; }
+.shell { background:var(--paper); min-height:100vh; }
+.topbar { background:#102a43; color:#fff; padding:10px 5vw; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; font-size:.86rem; }
+.topbar a { text-decoration:none; }
+header { position:sticky; top:0; z-index:5; background:light-dark(rgba(255,255,255,.96),rgba(16,27,40,.96)); backdrop-filter:blur(12px); border-bottom:1px solid var(--line); }
+.nav { max-width:1180px; margin:auto; padding:15px 24px; display:flex; align-items:center; justify-content:space-between; gap:22px; }
+.brand { display:flex; align-items:center; gap:12px; text-decoration:none; font-weight:850; letter-spacing:-.03em; }
+.logo { display:grid; place-items:center; width:44px; height:44px; border-radius:13px; color:#fff; font-weight:900; background:linear-gradient(145deg,var(--teal),var(--blue)); box-shadow:0 8px 20px #0b8f8730; }
+.brand small { display:block; font-size:.68rem; color:var(--muted); letter-spacing:.12em; text-transform:uppercase; font-weight:700; }
+.navlinks { display:flex; gap:23px; align-items:center; flex-wrap:wrap; font-size:.92rem; }
+.navlinks a { text-decoration:none; color:var(--muted); font-weight:650; }
+.navlinks a:hover { color:var(--teal); }
+.btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; border:0; border-radius:999px; padding:12px 19px; font-weight:800; text-decoration:none; cursor:pointer; transition:transform .2s,filter .2s; }
+.btn:hover { transform:translateY(-2px); filter:brightness(1.04); }
+.btn-primary { color:white; background:var(--teal); }
+.btn-outline { border:1px solid var(--line); color:var(--ink); background:transparent; }
+.hero { overflow:hidden; position:relative; background:linear-gradient(118deg,#102a43 0%,#174e70 56%,#087f78 100%); color:#fff; }
+.hero:after { content:""; position:absolute; width:520px; height:520px; border:1px solid #ffffff20; border-radius:50%; right:-110px; top:-180px; box-shadow:0 0 0 50px #ffffff08,0 0 0 100px #ffffff06; }
+.hero-inner { max-width:1180px; margin:auto; padding:82px 24px 88px; display:grid; grid-template-columns:1.25fr .75fr; gap:42px; align-items:center; position:relative; z-index:1; }
+.eyebrow { text-transform:uppercase; letter-spacing:.16em; font-size:.75rem; font-weight:850; color:#9de4d9; }
+h1 { font-size:clamp(2.5rem,5.2vw,4.7rem); line-height:1.03; letter-spacing:-.055em; margin:18px 0 20px; }
+.hero p { max-width:640px; color:#e0edf4; font-size:1.08rem; }
+.hero-actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+.hero .btn-outline { color:white; border-color:#ffffff70; }
+.hero-card { background:#ffffff12; border:1px solid #ffffff30; border-radius:24px; padding:26px; backdrop-filter:blur(8px); }
+.hero-card .big { font-size:2.3rem; font-weight:900; letter-spacing:-.04em; }
+.hero-card p { font-size:.94rem; margin:5px 0 18px; }
+.hero-card hr { border:0; border-top:1px solid #ffffff30; margin:18px 0; }
+.pills { display:flex; gap:8px; flex-wrap:wrap; }
+.pill { font-size:.78rem; padding:7px 11px; border:1px solid #ffffff35; border-radius:999px; }
+.trust { max-width:1180px; margin:-28px auto 0; padding:0 24px; position:relative; z-index:2; }
+.trust-grid { display:grid; grid-template-columns:repeat(4,1fr); border:1px solid var(--line); border-radius:18px; background:var(--paper); box-shadow:0 14px 45px #071d2b12; overflow:hidden; }
+.trust-item { padding:22px; border-right:1px solid var(--line); }
+.trust-item:last-child { border-right:0; }
+.trust-item strong { display:block; font-size:1.04rem; }
+.trust-item span { font-size:.84rem; color:var(--muted); }
+section { padding:78px 24px; }
+.container { max-width:1180px; margin:auto; }
+.section-head { max-width:700px; margin-bottom:32px; }
+.section-head h2 { margin:10px 0; font-size:clamp(1.9rem,3.2vw,3rem); letter-spacing:-.045em; line-height:1.1; }
+.section-head p { color:var(--muted); }
+.kicker { color:var(--teal); text-transform:uppercase; font-size:.75rem; letter-spacing:.15em; font-weight:900; }
+.products { background:var(--surface); }
+.product-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+.product { border:1px solid var(--line); background:var(--paper); border-radius:20px; overflow:hidden; }
+.product-art { height:180px; display:grid; place-items:center; background:radial-gradient(circle at 70% 20%,#ffffffc0,transparent 38%),linear-gradient(135deg,#d5f1eb,#dce9f8); color:#102a43; position:relative; }
+.product-art span { font-size:4.3rem; filter:drop-shadow(0 12px 9px #102a4325); }
+.product-art .label { position:absolute; top:15px; left:15px; font-size:.7rem; text-transform:uppercase; letter-spacing:.1em; font-weight:900; background:#fff; border-radius:999px; padding:6px 10px; }
+.product-body { padding:22px; }
+.product-body h3 { margin:0 0 8px; font-size:1.28rem; }
+.product-body p { margin:0 0 16px; color:var(--muted); font-size:.94rem; }
+.specs { display:flex; gap:7px; flex-wrap:wrap; margin-bottom:18px; }
+.specs span { font-size:.77rem; background:var(--surface); border:1px solid var(--line); padding:5px 9px; border-radius:999px; }
+.product-body a { color:var(--teal); font-weight:850; text-decoration:none; }
+.application-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+.application { padding:21px; border:1px solid var(--line); border-radius:16px; }
+.application .icon { font-size:1.7rem; }
+.application h3 { font-size:1rem; margin:12px 0 6px; }
+.application p { margin:0; font-size:.87rem; color:var(--muted); }
+.about-grid { display:grid; grid-template-columns:1fr 1fr; gap:50px; align-items:center; }
+.about-panel { background:linear-gradient(145deg,#102a43,#1b6280); color:white; border-radius:24px; padding:32px; }
+.about-panel h3 { font-size:1.7rem; margin:0 0 10px; }
+.about-panel p { color:#dceaf1; }
+.checklist { list-style:none; padding:0; margin:20px 0 0; }
+.checklist li { margin:12px 0; }
+.checklist li:before { content:"✓"; color:#73ddc5; font-weight:900; margin-right:10px; }
+.people { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:25px; }
+.person { border:1px solid var(--line); border-radius:14px; padding:15px; }
+.person strong { display:block; }
+.person span { color:var(--muted); font-size:.83rem; }
+.cta { background:linear-gradient(110deg,#0d7d79,#17557a); color:white; }
+.cta-inner { display:flex; align-items:center; justify-content:space-between; gap:25px; }
+.cta h2 { font-size:clamp(1.8rem,3vw,2.8rem); line-height:1.1; margin:8px 0; }
+.cta p { color:#d7eeed; max-width:660px; }
+.cta .btn { background:#fff; color:#12344a; }
+.contact-grid { display:grid; grid-template-columns:.9fr 1.1fr; gap:35px; }
+.contact-list { display:grid; gap:13px; }
+.contact-card { display:flex; gap:14px; align-items:flex-start; padding:17px; border:1px solid var(--line); border-radius:15px; }
+.contact-card .icon { width:40px; height:40px; display:grid; place-items:center; background:var(--surface); border-radius:12px; }
+.contact-card strong { display:block; }
+.contact-card p { margin:3px 0 0; color:var(--muted); font-size:.92rem; overflow-wrap:anywhere; }
+.contact-card a { color:var(--teal); text-decoration:none; font-weight:750; }
+.enquiry { padding:26px; border:1px solid var(--line); border-radius:20px; background:var(--surface); }
+.enquiry h3 { margin-top:0; }
+label { display:block; font-size:.88rem; font-weight:750; margin:13px 0 6px; }
+input,select,textarea { width:100%; border:1px solid var(--line); border-radius:10px; padding:12px 13px; font:inherit; color:var(--ink); background:var(--paper); }
+textarea { min-height:100px; resize:vertical; }
+footer { background:#0b1f30; color:#e4edf4; padding:34px 24px; }
+.footer-inner { max-width:1180px; margin:auto; display:flex; justify-content:space-between; gap:25px; flex-wrap:wrap; }
+footer p { margin:4px 0; color:#b8c9d7; font-size:.88rem; }
+footer a { color:#9de4d9; text-decoration:none; }
+.disclaimer { font-size:.76rem; opacity:.72; margin-top:14px; }
+@media(max-width:850px) { .hero-inner,.about-grid,.contact-grid { grid-template-columns:1fr; } .trust-grid { grid-template-columns:repeat(2,1fr); } .trust-item:nth-child(2) { border-right:0; } .trust-item:nth-child(-n+2) { border-bottom:1px solid var(--line); } .product-grid { grid-template-columns:1fr; } .application-grid { grid-template-columns:repeat(2,1fr); } .navlinks { gap:12px; } .navlinks a:not(.btn) { display:none; } .hero-inner { padding-top:58px; } .cta-inner { align-items:flex-start; flex-direction:column; } }
+@media(max-width:500px) { section { padding:58px 18px; } .nav { padding:12px 18px; } .trust { padding:0 14px; } .trust-item { padding:15px; } .application-grid,.people { grid-template-columns:1fr; } .topbar { padding:10px 18px; } }
+</style>
+</head>
+<body>
+<div class="shell">
+<div class="topbar"><span>Packaging film manufacturer & distributor · Prayagraj, India</span><span><a href="tel:+916306239767">+91 6306239767</a> &nbsp;|&nbsp; <a href="tel:+919120120096">+91 9120120096</a></span></div>
+<header><nav class="nav"><a class="brand" href="#home"><span class="logo">RS</span><span>Ram Setu Enterprises<small>Packaging films & solutions</small></span></a><div class="navlinks"><a href="#products">Products</a><a href="#applications">Applications</a><a href="#about">About us</a><a href="#contact">Contact</a><a class="btn btn-primary" href="https://wa.me/916306239767?text=Hello%20Ram%20Setu%20Enterprises%2C%20I%20would%20like%20to%20enquire%20about%20packaging%20films." target="_blank" rel="noopener">WhatsApp us ↗</a></div></nav></header>
+<main>
+<section class="hero" id="home"><div class="hero-inner"><div><div class="eyebrow">Reliable packaging. Stronger protection.</div><h1>Packaging films that keep business moving.</h1><p>Ram Setu Enterprises manufactures and distributes dependable packaging film solutions for industrial, commercial and everyday packaging needs. We help businesses find the right film for protection, wrapping and presentation.</p><div class="hero-actions"><a class="btn btn-primary" href="#products">Explore our products ↓</a><a class="btn btn-outline" href="https://wa.me/919120120096?text=Hello%20Ram%20Setu%20Enterprises%2C%20please%20share%20your%20product%20catalogue." target="_blank" rel="noopener">Request a catalogue ↗</a></div></div><aside class="hero-card"><div class="eyebrow">Your packaging partner</div><div class="big">Film. Wrap. Protect.</div><p>Practical packaging materials for manufacturers, distributors and growing businesses.</p><hr><div class="pills"><span class="pill">Shrink Film</span><span class="pill">Stretch Film</span><span class="pill">Liner Bags</span><span class="pill">Custom enquiries</span></div></aside></div></section>
+<div class="trust"><div class="trust-grid"><div class="trust-item"><strong>Manufacturer & distributor</strong><span>Packaging film supply</span></div><div class="trust-item"><strong>Business-focused</strong><span>Commercial and industrial use</span></div><div class="trust-item"><strong>Prayagraj, UP</strong><span>Serving customers from India</span></div><div class="trust-item"><strong>Direct enquiries</strong><span>Phone, email and WhatsApp</span></div></div></div>
+<section class="products" id="products"><div class="container"><div class="section-head"><div class="kicker">Our product range</div><h2>Packaging essentials for your business</h2><p>Explore our core products. Share your application, required size and quantity with our team for availability, specifications and a quotation.</p></div><div class="product-grid">
+<article class="product"><div class="product-art"><span>◉</span><span class="label">Product 01</span></div><div class="product-body"><h3>Shrink Film</h3><p>Film for bundling, product presentation and protective wrapping across a variety of packaging applications.</p><div class="specs"><span>80 micron</span><span>85 micron</span><span>90 micron</span></div><a href="https://wa.me/916306239767?text=Hello%2C%20I%20am%20interested%20in%20Shrink%20Film.%20Please%20share%20available%20sizes%20and%20pricing." target="_blank" rel="noopener">Enquire about shrink film ↗</a></div></article>
+<article class="product"><div class="product-art" style="background:radial-gradient(circle at 70% 20%,#ffffffc0,transparent 38%),linear-gradient(135deg,#d8e9f8,#d9e7dc)"><span>▤</span><span class="label">Product 02</span></div><div class="product-body"><h3>Liner Bags</h3><p>Bag and liner solutions to support product containment, handling and packaging requirements.</p><div class="specs"><span>Custom enquiry</span><span>Industrial use</span></div><a href="https://wa.me/916306239767?text=Hello%2C%20I%20am%20interested%20in%20Liner%20Bags.%20Please%20share%20available%20sizes%20and%20pricing." target="_blank" rel="noopener">Enquire about liner bags ↗</a></div></article>
+<article class="product"><div class="product-art" style="background:radial-gradient(circle at 70% 20%,#ffffffc0,transparent 38%),linear-gradient(135deg,#f8e8c9,#d9f1ec)"><span>⟲</span><span class="label">Product 03</span></div><div class="product-body"><h3>Stretch Film</h3><p>Stretch wrapping for securing cartons, pallet loads and goods during storage and transportation.</p><div class="specs"><span>Pallet wrapping</span><span>Load securing</span></div><a href="https://wa.me/919120120096?text=Hello%2C%20I%20am%20interested%20in%20Stretch%20Film.%20Please%20share%20available%20sizes%20and%20pricing." target="_blank" rel="noopener">Enquire about stretch film ↗</a></div></article>
+</div></div></section>
+<section id="applications"><div class="container"><div class="section-head"><div class="kicker">Where we fit</div><h2>Packaging support across industries</h2><p>Tell us what you pack and how it moves. Our team can discuss suitable product options for your application.</p></div><div class="application-grid"><div class="application"><div class="icon">🏭</div><h3>Industrial packaging</h3><p>Packaging and protection for goods moving through operations.</p></div><div class="application"><div class="icon">🥫</div><h3>Food & FMCG</h3><p>Wrapping and bundling needs for consumer products.</p></div><div class="application"><div class="icon">🧪</div><h3>Chemical & polymer</h3><p>Packaging support for industrial materials and supplies.</p></div><div class="application"><div class="icon">🧱</div><h3>Cement & putty</h3><p>Packaging film enquiries for construction-related products.</p></div><div class="application"><div class="icon">🍾</div><h3>Bottles & shrink wrap</h3><p>Multipacks, bundling and product presentation.</p></div><div class="application"><div class="icon">📦</div><h3>Pallet & carton wrapping</h3><p>Load wrapping for handling, storage and dispatch.</p></div><div class="application"><div class="icon">🌱</div><h3>Agriculture films</h3><p>Discuss film requirements for agricultural applications.</p></div><div class="application"><div class="icon">⚙️</div><h3>Custom requirements</h3><p>Contact us with your size, thickness and use case.</p></div></div></div></section>
+<section id="about" style="background:var(--surface)"><div class="container about-grid"><div><div class="section-head"><div class="kicker">About Ram Setu Enterprises</div><h2>A practical partner for packaging supply</h2><p>Ram Setu Enterprises is a packaging films business based in Iradatganj, Ghoorpur, Prayagraj, Uttar Pradesh, India. We focus on supplying shrink film, liner bags and stretch film for business packaging needs.</p></div><p style="color:var(--muted)">We welcome enquiries from manufacturers, wholesalers, distributors and businesses looking for packaging materials. Contact us to discuss product specifications, quantities, availability and delivery requirements.</p><div class="people"><div class="person"><strong>Subodh Dubey</strong><span>Director</span></div><div class="person"><strong>Shashank Dubey</strong><span>Founder & CEO</span></div><div class="person"><strong>Ayush Dubey</strong><span>Founder & CEO</span></div></div></div><div class="about-panel"><div class="eyebrow">Our approach</div><h3>Clear communication. Product-focused support.</h3><p>We aim to make packaging enquiries straightforward, from identifying the product to discussing the specification and quote.</p><ul class="checklist"><li>Core packaging film product range</li><li>Direct contact with our team</li><li>Product and bulk quantity enquiries</li><li>Support for varied packaging applications</li></ul></div></div></section>
+<section class="cta"><div class="container cta-inner"><div><div class="eyebrow">Need a price or product detail?</div><h2>Let’s discuss your packaging requirement.</h2><p>Send us the product name, thickness or size, estimated quantity and delivery location. We’ll get your enquiry to the right contact.</p></div><a class="btn" href="https://wa.me/916306239767?text=Hello%20Ram%20Setu%20Enterprises%2C%20I%20would%20like%20a%20quotation.%20Product%3A%20%20Size%2Fthickness%3A%20%20Quantity%3A%20%20Delivery%20location%3A%20" target="_blank" rel="noopener">Get a quotation on WhatsApp ↗</a></div></section>
+<section id="contact"><div class="container"><div class="section-head"><div class="kicker">Contact us</div><h2>Tell us what you need</h2><p>For product availability, specifications, bulk enquiries and quotations, reach our team directly.</p></div><div class="contact-grid"><div class="contact-list"><div class="contact-card"><div class="icon">☎</div><div><strong>Call us</strong><p><a href="tel:+916306239767">+91 6306239767</a><br><a href="tel:+919120120096">+91 9120120096</a></p></div></div><div class="contact-card"><div class="icon">✉</div><div><strong>Email</strong><p><a href="mailto:ramsetuenterprises11@gmail.com">ramsetuenterprises11@gmail.com</a></p></div></div><div class="contact-card"><div class="icon">⌖</div><div><strong>Business address</strong><p>Iradatganj, Ghoorpur, Prayagraj 212107,<br>Uttar Pradesh, India</p><p><a href="https://www.google.com/maps/search/?api=1&query=Iradatganj%20Ghoorpur%20Prayagraj%20212107%20Uttar%20Pradesh%20India" target="_blank" rel="noopener">Find us on Google Maps ↗</a></p></div></div><div class="contact-card"><div class="icon">▦</div><div><strong>GST number</strong><p>09AOMPD2263G1Z0</p></div></div></div><form class="enquiry" id="enquiry-form"><h3>Send an enquiry on WhatsApp</h3><p style="color:var(--muted);font-size:.9rem">Fill this in and the site will prepare a message to send to our team.</p><label for="name">Your name / company</label><input id="name" name="name" placeholder="Enter your name or company" required><label for="product">Product interested in</label><select id="product" name="product"><option>Shrink Film</option><option>Liner Bags</option><option>Stretch Film</option><option>Other / Custom Packaging</option></select><label for="quantity">Quantity and specification</label><input id="quantity" name="quantity" placeholder="e.g. 85 micron, roll size, quantity"><label for="message">Additional details</label><textarea id="message" name="message" placeholder="Tell us about your packaging requirement and delivery location"></textarea><button class="btn btn-primary" type="submit" style="margin-top:17px;width:100%">Prepare WhatsApp enquiry ↗</button></form></div></div></section>
+</main><footer><div class="footer-inner"><div><strong>Ram Setu Enterprises</strong><p>Packaging films & solutions · Prayagraj, Uttar Pradesh, India</p><p>Director: Subodh Dubey · Founders & CEO: Shashank Dubey, Ayush Dubey</p></div><div><p><a href="mailto:ramsetuenterprises11@gmail.com">ramsetuenterprises11@gmail.com</a></p><p><a href="tel:+916306239767">+91 6306239767</a> · <a href="tel:+919120120096">+91 9120120096</a></p></div></div><div class="footer-inner disclaimer"><p>Product specifications, availability, prices and delivery terms are confirmed directly by Ram Setu Enterprises. Website information should be reviewed by the business before public launch.</p><p>© <span id="year"></span> Ram Setu Enterprises</p></div></footer>
+</div>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('enquiry-form').addEventListener('submit', function(event) {
+ event.preventDefault();
+ const name = document.getElementById('name').value.trim();
+ const product = document.getElementById('product').value;
+ const quantity = document.getElementById('quantity').value.trim();
+ const message = document.getElementById('message').value.trim();
+ const body = `Hello Ram Setu Enterprises, my name/company is ${name}. I am enquiring about ${product}. Quantity/specification: ${quantity || 'Please advise'}. Additional details: ${message || 'Please contact me with details and pricing'}.`;
+ window.open('https://wa.me/916306239767?text=' + encodeURIComponent(body), '_blank', 'noopener');
+});
+</script>
+</body>
+</html>
